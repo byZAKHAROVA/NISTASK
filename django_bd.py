@@ -72,4 +72,8 @@ user.save()
 post = Post.objects.get(title="срочно!")
 post.delete()
 
+#Получение инфы
+reqid = 1
+user_info = User.objects.get(id=reqid)
+print(user_info)
 
